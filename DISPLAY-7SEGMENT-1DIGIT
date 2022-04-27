@@ -1,0 +1,71 @@
+int displayq(input) {
+  int d1 = ///;
+  int d2 = ///;
+  int d3 = ///;
+  int d4 = ///;
+  int d5 = ///;
+  int d6 = ///;
+  int d7 = ///;
+  for (int looper = d1; looper < d7+1; looper++) {
+    digitalWrite(looper, LOW);
+  }
+  if (input == 1) {
+    digitalWrite(d4, HIGH);
+    digitalWrite(d7, HIGH);
+  } else if (input == 2) {
+    digitalWrite(d3, HIGH);
+    digitalWrite(d4, HIGH);
+    digitalWrite(d1, HIGH);
+    digitalWrite(d5, HIGH);
+    digitalWrite(d6, HIGH);
+  } else if (input == 3) {
+    digitalWrite(d3, HIGH);
+    digitalWrite(d4, HIGH);
+    digitalWrite(d1, HIGH);
+    digitalWrite(d7, HIGH);
+    digitalWrite(d6, HIGH);
+  } else if (input == 4) {
+    digitalWrite(d1, HIGH);
+    digitalWrite(d2, HIGH);
+    digitalWrite(d4, HIGH);
+    digitalWrite(d7, HIGH);
+  } else if (input == 5) {
+    digitalWrite(d1, HIGH);
+    digitalWrite(d2, HIGH);
+    digitalWrite(d3, HIGH);
+    digitalWrite(d7, HIGH);
+    digitalWrite(d6, HIGH);
+  } else if (input == 6) {
+    digitalWrite(d1, HIGH);
+    digitalWrite(d2, HIGH);
+    digitalWrite(d3, HIGH);
+    digitalWrite(d7, HIGH);
+    digitalWrite(d6, HIGH);
+    digitalWrite(d5, HIGH);
+  } else if (input == 7) {
+    digitalWrite(d3, HIGH);
+    digitalWrite(d4, HIGH);
+    digitalWrite(d7, HIGH);
+  } else if (input == 8) {
+    digitalWrite(d1, HIGH);
+    digitalWrite(d2, HIGH);
+    digitalWrite(d3, HIGH);
+    digitalWrite(d4, HIGH);
+    digitalWrite(d5, HIGH);
+    digitalWrite(d6, HIGH);
+    digitalWrite(d7, HIGH);
+  } else if (input == 9) {
+    digitalWrite(d1, HIGH);
+    digitalWrite(d2, HIGH);
+    digitalWrite(d3, HIGH);
+    digitalWrite(d4, HIGH);
+    digitalWrite(d7, HIGH);
+  } else if (input == 0) {
+    digitalWrite(d2, HIGH);
+    digitalWrite(d3, HIGH);
+    digitalWrite(d4, HIGH);
+    digitalWrite(d5, HIGH);
+    digitalWrite(d6, HIGH);
+    digitalWrite(d7, HIGH);
+  }
+}
